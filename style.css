@@ -1,6 +1,38 @@
-.boxed {
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap'); /* Antonio Font */
+/* for Antonio Font: font-family: 'Antonio', sans-serif; */
+
+:root {
+  /* Colors */
+  --orange: #F7BD23;
+  --yellow: #CBB514;
+  --grey: #4E4D4A;
+  --purple: #7A7ADD;
+}
+
+body {
+  background-color: var(--grey);
+}
+
+.confbox {
+  top: 160px;
+  left: 160px;
   width: 300px;
+  min-height: 300px;
+  height: auto;
+  position: relative;
+  padding: 10px;
   border: 3px solid black;
-  padding: 50px;
-  margin: 20px;
+  background-color: var(--purple);
+}
+
+.confboxtitle {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  border: 3px solid black;
+  font-family: 'Antonio', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  background-color: var(--orange);
 }
