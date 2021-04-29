@@ -1,38 +1,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap'); /* Antonio Font */
 /* for Antonio Font: font-family: 'Antonio', sans-serif; */
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); /* Oswald Font */
+/* for Oswald Font: font-family: 'Oswald', sans-serif; */
+
 :root {
   /* Colors */
   --orange: #F7BD23;
+  --darkorange: #EAA70C;
   --yellow: #CBB514;
-  --grey: #4E4D4A;
+  --grey: #818181;
   --purple: #7A7ADD;
 }
 
-body {
-  background-color: var(--grey);
-}
+@media screen and (min-width: 601px){
+  body {
+    background-color: var(--grey);
+  }
 
-.confbox {
-  top: 160px;
-  left: 160px;
-  width: 300px;
-  min-height: 300px;
-  height: auto;
-  position: relative;
-  padding: 10px;
-  border: 3px solid black;
-  background-color: var(--purple);
-}
+  .confbox {
+    border-radius: 10px;
+    top: 50px;
+    left: 160px;
+    width: 300px;
+    min-height: 300px;
+    height: auto;
+    position: relative;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: var(--purple);
+  }
 
-.confboxtitle {
-  width: auto;
-  height: auto;
-  margin: 0 auto;
-  position: relative;
-  border: 3px solid black;
-  font-family: 'Antonio', sans-serif;
-  font-size: 32px;
-  text-align: center;
-  background-color: var(--orange);
+  .colorbox {
+    border-radius: 10px;
+    top: -276px;
+    left: 490px;
+    width: 300px;
+    min-height: 300px;
+    height: auto;
+    position: relative;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: var(--purple);
+  }
+
+  .combobox {
+    border-radius: 10px;
+    top: -270px;
+    left: 160px;
+    width: 630px;
+    min-height: 300px;
+    height: auto;
+    position: relative;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: var(--purple);
+  }
+
+  .calcbutton {
+    border-radius: 10px;
+    top: -265px;
+    left: 170px;
+    width: 630px;
+    min-height: 100px;
+    height: auto;
+    position: relative;
+    font-family: 'Antonio', sans-serif;
+    font-size: 32px;
+    border: 3px solid black;
+    text-align: center;
+    background-color: var(--orange);
+  }
+
+  .calcbutton:hover{
+    background-color: var(--darkorange);
+  }
+
+  .boxtitle {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    border: 3px solid black;
+    font-family: 'Antonio', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    background-color: var(--orange);
+  }
+
+  .selectlist {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    border: 3px solid black;
+    font-family: 'Antonio', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    background-color: var(--orange);
+    padding: 10px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .pricelabel {
+    background-color: var(--orange);
+    top: 40px;
+    position: relative;
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    border: solid 3px black;
+  }
 }

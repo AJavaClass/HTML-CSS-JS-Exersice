@@ -6,10 +6,37 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="confbox">
-      <div class="confboxtitle">
-        <p>CONFIGURATION</p>
+    <div>
+      <div class="confbox">
+        <div class="boxtitle">
+          <p>CHOOSE MODEL</p>
+        </div>
+        <select class="selectlist" name="guitars" id="guitars">
+          <option id="stratocaster" value="399" selected>Stratocaster</option>
+          <option id="telecaster" value="345">Telecaster</option>
+        </select>
+        <label id="pricelabel" class="pricelabel"></label>
+      </div>
+      <div class="colorbox">
+        <div class="boxtitle">
+          <p>CHOOSE COLOR</p>
+        </div>
+        <select id="guitarcolors" class="selectlist" name="guitarcolors" id="guitarcolors">
+          <option value="black" selected>Black</option>
+          <option value="brown">Brown</option>
+          <option value="yellow">Yellow</option>
+        </select>
+      </div>
+      <div class="combobox">
+        <div class="boxtitle">
+          <p>CHOOSE COMBO</p>
+        </div>
+      </div>
+      <div class="calcbutton">
+        <p>CALCULATE</p>
       </div>
     </div>
+
+    <script src="guitars.js"></script>
   </body>
 </html>
