@@ -21,14 +21,26 @@ function changeList(){
 function changeModel(){
   var list = document.getElementById("guitars");
   var model = list.options[list.selectedIndex];
-  document.getElementById("pricelabel").innerHTML = model.value + "€";
+  document.getElementById("pricelabel").innerHTML = parseInt(model.value) + "€";
+  return model.value;
 }
 
-changeModel()
+function changeCombo(){
+  var combolist = document.getElementById("guitarbundles");
+  var combo = combolist.options[combolist.selectedIndex];
+  document.getElementById("combopricelabel").innerHTML = parseInt(combo.value) + "€";
+}
 
-changeList()
+changeModel();
+changeList();
+changeCombo();
 
 document.getElementById("guitars").addEventListener("change", () => {
      changeModel();
      changeList();
+     changeCombo();
+});
+
+document.getElementById("guitarbundles").addEventListener("change", () => {
+    changeCombo();
 });

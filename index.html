@@ -4,36 +4,48 @@
     <meta charset="utf-8">
     <title>Guitar Customization</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div>
-      <div class="confbox">
-        <div class="boxtitle">
-          <p>CHOOSE MODEL</p>
+    <div class="pagelayout">
+      <div class="layoutbox">
+        <div class="confbox">
+          <div class="boxtitle">
+            <p>CHOOSE MODEL</p>
+          </div>
+          <select class="selectlist" name="guitars" id="guitars">
+            <option id="stratocaster" value="399" selected>Stratocaster</option>
+            <option id="telecaster" value="345">Telecaster</option>
+          </select>
+          <label id="pricelabel" class="pricelabel"></label>
         </div>
-        <select class="selectlist" name="guitars" id="guitars">
-          <option id="stratocaster" value="399" selected>Stratocaster</option>
-          <option id="telecaster" value="345">Telecaster</option>
-        </select>
-        <label id="pricelabel" class="pricelabel"></label>
-      </div>
-      <div class="colorbox">
-        <div class="boxtitle">
-          <p>CHOOSE COLOR</p>
+        <div class="colorbox">
+          <div class="boxtitle">
+            <p>CHOOSE COLOR</p>
+          </div>
+          <select id="guitarcolors" class="selectlist" name="guitarcolors">
+          </select>
         </div>
-        <select id="guitarcolors" class="selectlist" name="guitarcolors" id="guitarcolors">
-          <option value="black" selected>Black</option>
-          <option value="brown">Brown</option>
-          <option value="yellow">Yellow</option>
-        </select>
-      </div>
-      <div class="combobox">
-        <div class="boxtitle">
-          <p>CHOOSE COMBO</p>
+        <div class="combobox">
+          <div class="boxtitle">
+            <p>CHOOSE COMBO</p>
+          </div>
+          <select id="guitarbundles" class="selectlist" name="guitarbundles">
+            <option id="nocombo" value="0" selected>No Combo</option>
+            <option id="amp" value="100">With Amp</option>
+            <option id="ampcase" value="150">With Amp And Case</option>
+          </select>
+          <label id="combopricelabel" class="pricelabel"></label>
+        </div>
+        <div class="calcbox">
+          <button class="calcbutton">CALCULATE</button>
+          <div class="totalprice">
+          </div>
         </div>
       </div>
-      <div class="calcbutton">
-        <p>CALCULATE</p>
+      <div class="imagefield">
+        <img src="Pictures/Bundle Guitars Case/stra_black.png">
+        </img>
       </div>
     </div>
 
