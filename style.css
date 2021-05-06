@@ -6,11 +6,10 @@
 
 :root {
   /* Colors */
-  --orange: #F7BD23;
-  --darkorange: #EAA70C;
-  --yellow: #CBB514;
+  --white: #E9D8F2;
+  --lightpurple: #de9df5;
   --grey: #818181;
-  --purple: #7A7ADD;
+  --purple: #9567e0;
   --boxWidthMiddleScreen: 65%;
 }
 
@@ -87,7 +86,7 @@
 
   .totalprice {
     border-radius: 10px;
-    background-color: var(--darkorange);
+    background-color: var(--lightpurple);
     width: auto;
     height: auto;
     margin: 0 auto;
@@ -113,7 +112,7 @@
     font-family: 'Antonio', sans-serif;
     font-size: 2.1vw;
     text-align: center;
-    background-color: var(--orange);
+    background-color: var(--white);
   }
 
   .selectlist {
@@ -125,7 +124,7 @@
     font-family: 'Antonio', sans-serif;
     font-size: 2vw;
     text-align: center;
-    background-color: var(--orange);
+    background-color: var(--white);
     padding: 10px;
     top: 10px;
     display: flex;
@@ -133,11 +132,11 @@
   }
 
   .selectlist:hover {
-    background-color: var(--darkorange);
+    background-color: var(--lightpurple);
   }
 
   .pricelabel {
-    background-color: var(--orange);
+    background-color: var(--white);
     top: 20px;
     position: relative;
     font-family: 'Oswald', sans-serif;
@@ -235,7 +234,7 @@
 
   .totalprice {
     border-radius: 10px;
-    background-color: var(--darkorange);
+    background-color: var(--lightpurple);
     width: auto;
     height: auto;
     margin: 0 auto;
@@ -261,7 +260,7 @@
     font-family: 'Antonio', sans-serif;
     font-size: 2.1vw;
     text-align: center;
-    background-color: var(--orange);
+    background-color: var(--white);
   }
 
   .selectlist {
@@ -273,7 +272,7 @@
     font-family: 'Antonio', sans-serif;
     font-size: 2vw;
     text-align: center;
-    background-color: var(--orange);
+    background-color: var(--white);
     padding: 10px;
     top: 10px;
     display: flex;
@@ -281,11 +280,11 @@
   }
 
   .selectlist:hover {
-    background-color: var(--darkorange);
+    background-color: var(--lightpurple);
   }
 
   .pricelabel {
-    background-color: var(--orange);
+    background-color: var(--white);
     top: 20px;
     position: relative;
     font-family: 'Oswald', sans-serif;
@@ -377,7 +376,7 @@
 
   .totalprice {
     border-radius: 10px;
-    background-color: var(--darkorange);
+    background-color: var(--lightpurple);
     width: 80%;
     height: auto;
     margin: 0 auto;
@@ -403,7 +402,7 @@
     font-family: 'Antonio', sans-serif;
     font-size: 5vw;
     text-align: center;
-    background-color: var(--orange);
+    background-color: var(--white);
     border-radius: 10px;
   }
 
@@ -416,7 +415,7 @@
     font-family: 'Antonio', sans-serif;
     font-size: 28px;
     text-align: center;
-    background-color: var(--orange);
+    background-color: var(--white);
     padding: 10px;
     top: 10px;
     display: flex;
@@ -424,11 +423,11 @@
   }
 
   .selectlist:hover {
-    background-color: var(--darkorange);
+    background-color: var(--lightpurple);
   }
 
   .pricelabel {
-    background-color: var(--orange);
+    background-color: var(--white);
     top: 40px;
     position: relative;
     font-family: 'Oswald', sans-serif;
