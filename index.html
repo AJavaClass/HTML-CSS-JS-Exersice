@@ -14,10 +14,10 @@
             <p>CHOOSE MODEL</p>
           </div>
           <select class="selectlist" name="guitars" id="guitars">
-            <option id="stratocaster" value="399" selected>Stratocaster</option>
-            <option id="telecaster" value="345">Telecaster</option>
+            <option id="stra" value="399" selected>Stratocaster</option>
+            <option id="tele" value="345">Telecaster</option>
           </select>
-          <label id="pricelabel" class="pricelabel"></label>
+          <label id="guitarpricelabel" class="pricelabel"></label>
         </div>
         <div class="colorbox">
           <div class="boxtitle">
@@ -37,14 +37,17 @@
           </select>
           <label id="combopricelabel" class="pricelabel"></label>
         </div>
-        <div class="calcbox">
-          <button class="calcbutton">CALCULATE</button>
+        <div class="totalpricebox">
+          <div class="boxtitle">
+            <p>TOTAL PRICE<p>
+          </div>
           <div class="totalprice">
+            <p id="totalpricelabel"></p>
           </div>
         </div>
       </div>
       <div class="imagefield">
-        <img src="Pictures/Bundle Guitars Case/stra_black.png">
+        <img id="guitarimage" src="Pictures/Bundle Guitars Case/stra_black.png">
         </img>
       </div>
     </div>
